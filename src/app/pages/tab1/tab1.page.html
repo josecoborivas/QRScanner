@@ -1,4 +1,11 @@
 
 <ion-content [fullscreen]="true">
-  
+    <ion-slides [options]="slideOpts">
+        <ion-slide>
+            <ion-button (click)="scan()" expand="full"  color="primary" size="large" shape="round" fill="outline">
+                <ion-label>Scan</ion-label>
+                <ion-icon slot="start" name="scan"></ion-icon>
+            </ion-button>
+        </ion-slide>
+    </ion-slides>
 </ion-content>
