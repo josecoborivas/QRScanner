@@ -16,6 +16,5 @@ export class Tab2Page {
   }
 
   abrirRegistro(registro){
-    console.log('Registro: ', registro);
   }
 }
