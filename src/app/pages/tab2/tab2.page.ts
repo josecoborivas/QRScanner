@@ -12,10 +12,11 @@ export class Tab2Page {
 
 
   enviarCorreo(){
-
+    this.dataLocalService.enviarCorreo();
   }
 
   abrirRegistro(registro){
     this.dataLocalService.abrirRegistro(registro);
+    console.log(registro)
   }
 }
